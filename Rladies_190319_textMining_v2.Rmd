@@ -289,6 +289,24 @@ ggraph(bigram_graph, layout = "fr") +
 # myData <- tm_map(myData, removeWords, myStopwords)
 
 
+# Gutenberg Exercise
+# ------------------
+
+# Run the same code, but with the King James version of the Bible, which is Book 10 on Project Gutenberg.
+
+```{r}
+#install.packages("gutenbergr")
+
+library(gutenbergr)
+```
+
+# Note:
+# As this is just one book and not a collection, you will need to adjust the code slightly:
+
+# - Replace all instances of "austen_books()" with "gutenberg_download(10)"
+# - Either remove the variable "book" or replace it with "gutenberg_id"
+
+
 # NASA Exercise
 # -------------
 
