@@ -10,7 +10,7 @@ output: html_notebook
 # This script contains the code to conduct frequency and sentiment analyses.
 
 # website: https://www.tidytextmining.com/tidytext.html
-# github: https://github.com/dgrtwo/tidy-text-mining -- UPDATE!!!!!
+# github: https://github.com/alisoncholland/Rladies-Text-Mining-/blob/master/Rladies_190319_textMining_v2.Rmd
 
 
 # Install packages & libraries
